@@ -1,0 +1,307 @@
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~
+$ mkdir gittest
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~
+$ cd gittest
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest
+$ ls
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest
+$ git init
+Initialized empty Git repository in C:/Users/Alish Shrestha/gittes
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ ls
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ touch index.html
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ touch styles.css
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ touch aboutMe.txt
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ ls
+aboutMe.txt  index.html  styles.css
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        aboutMe.txt
+        index.html
+        styles.css
+
+nothing added to commit but untracked files present (use "git add"
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ vi aboutMe.txt
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ vi aboutMe.txt
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git staus
+git: 'staus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git commit -m "updated aboutMe"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Alish Shrestha@DE)
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git commit -m "updated aboutMe.txt"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Alish Shrestha@DE)
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git config --global user.email "shrestha_alish@hotmail.com"
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git config --global user.name "Alish Shrestha"
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        aboutMe.txt
+        index.html
+        styles.css
+
+nothing added to commit but untracked files present (use "git add"
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git add .
+warning: LF will be replaced by CRLF in aboutMe.txt.
+The file will have its original line endings in your working direc
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git commit -m "updated aboutMe.txt"
+[master (root-commit) a15e410] updated aboutMe.txt
+ 3 files changed, 1 insertion(+)
+ create mode 100644 aboutMe.txt
+ create mode 100644 index.html
+ create mode 100644 styles.css
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ get status
+bash: get: command not found
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ vi aboutMe.txt
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ vi aboutMe.txt
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git commit -m "added favorite movie to aboutMe.txt"
+On branch master
+Changes not staged for commit:
+        modified:   aboutMe.txt
+
+no changes added to commit
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git add .
+warning: LF will be replaced by CRLF in aboutMe.txt.
+The file will have its original line endings in your working directory.
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git commit -m "added favorite movie to aboutMe.txt"
+[master bd6eaab] added favorite movie to aboutMe.txt
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git log
+commit bd6eaab89263666fb1be8754e812bab41515ed1d (HEAD -> master)
+Author: Alish Shrestha <shrestha_alish@hotmail.com>
+Date:   Mon Dec 11 16:08:09 2017 -0600
+
+    added favorite movie to aboutMe.txt
+
+commit a15e41098248b72c969eb6bb6e0b3136cb1f3f48
+Author: Alish Shrestha <shrestha_alish@hotmail.com>
+Date:   Mon Dec 11 16:04:49 2017 -0600
+
+    updated aboutMe.txt
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git log
+commit bd6eaab89263666fb1be8754e812bab41515ed1d (HEAD -> master)
+Author: Alish Shrestha <shrestha_alish@hotmail.com>
+Date:   Mon Dec 11 16:08:09 2017 -0600
+
+    added favorite movie to aboutMe.txt
+
+commit a15e41098248b72c969eb6bb6e0b3136cb1f3f48
+Author: Alish Shrestha <shrestha_alish@hotmail.com>
+Date:   Mon Dec 11 16:04:49 2017 -0600
+
+    updated aboutMe.txt
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ vi aboutMe.txt
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   aboutMe.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git commit -m "changed favorite movie to book aboutMe.txt"
+On branch master
+Changes not staged for commit:
+        modified:   aboutMe.txt
+
+no changes added to commit
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git log
+commit bd6eaab89263666fb1be8754e812bab41515ed1d (HEAD -> master)
+Author: Alish Shrestha <shrestha_alish@hotmail.com>
+Date:   Mon Dec 11 16:08:09 2017 -0600
+
+    added favorite movie to aboutMe.txt
+
+commit a15e41098248b72c969eb6bb6e0b3136cb1f3f48
+Author: Alish Shrestha <shrestha_alish@hotmail.com>
+Date:   Mon Dec 11 16:04:49 2017 -0600
+
+    updated aboutMe.txt
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   aboutMe.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git commit -m "up^C
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git commit -m "uptaded fav movie to book aboutMe.txt"
+On branch master
+Changes not staged for commit:
+        modified:   aboutMe.txt
+
+no changes added to commit
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git log
+commit bd6eaab89263666fb1be8754e812bab41515ed1d (HEAD -> master)
+Author: Alish Shrestha <shrestha_alish@hotmail.com>
+Date:   Mon Dec 11 16:08:09 2017 -0600
+
+    added favorite movie to aboutMe.txt
+
+commit a15e41098248b72c969eb6bb6e0b3136cb1f3f48
+Author: Alish Shrestha <shrestha_alish@hotmail.com>
+Date:   Mon Dec 11 16:04:49 2017 -0600
+
+    updated aboutMe.txt
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/gittest (master)
+$ git log
+commit bd6eaab89263666fb1be8754e812bab41515ed1d (HEAD -> master)
+Author: Alish Shrestha <shrestha_alish@hotmail.com>
+Date:   Mon Dec 11 16:08:09 2017 -0600
+
+    added favorite movie to aboutMe.txt
+
+commit a15e41098248b72c969eb6bb6e0b3136cb1f3f48
+Author: Alish Shrestha <shrestha_alish@hotmail.com>
+Date:   Mon Dec 11 16:04:49 2017 -0600
+
+    updated aboutMe.txt
+
+Alish Shrestha@DESKT

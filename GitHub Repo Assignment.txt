@@ -1,0 +1,49 @@
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~ (master)
+$ cd Desktop
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/Desktop (master)
+$ cd Week1
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/Desktop/Week1 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/Alish Shrestha/Desktop/Week1/.git/
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/Desktop/Week1 (master)
+$ git remote add origin https://github.com/as1286/GitHubRepoAssignment.git
+fatal: remote origin already exists.
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/Desktop/Week1 (master)
+$ git add .
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/Desktop/Week1 (master)
+$ git commit -m "updated README.txt"
+[master (root-commit) df9b054] updated README.txt
+ 4 files changed, 162 insertions(+)
+ create mode 100644 Fake Blog.html
+ create mode 100644 README.md
+ create mode 100644 Registration Form.html
+ create mode 100644 indentationpractice.html
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/Desktop/Week1 (master)
+$ git push -u origin master
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 1.94 KiB | 1.94 MiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/as1286/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/Desktop/Week1 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Alish Shrestha@DESKTOP-9L5C4L6 MINGW64 ~/Desktop/Week1 (master)
+$
+
+link: https://github.com/as1286/GitHubRepoAssignment
+
